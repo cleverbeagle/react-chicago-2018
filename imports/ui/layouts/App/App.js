@@ -28,6 +28,7 @@ import Footer from '../../components/Footer/Footer';
 import Terms from '../../pages/Terms/Terms';
 import Privacy from '../../pages/Privacy/Privacy';
 import ExamplePage from '../../pages/ExamplePage/ExamplePage';
+import Activity from '../../pages/Activity/Activity';
 import VerifyEmailAlert from '../../components/VerifyEmailAlert/VerifyEmailAlert';
 import getUserName from '../../../modules/get-user-name';
 
@@ -75,6 +76,7 @@ class App extends React.Component {
                 <Route name="terms" path="/terms" component={Terms} />
                 <Route name="privacy" path="/privacy" component={Privacy} />
                 <Route name="examplePage" path="/example-page" component={ExamplePage} />
+                <Route name="activity" path="/activity" component={Activity} />
                 <Route component={NotFound} />
               </Switch>
             </Grid>
